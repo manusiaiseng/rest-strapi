@@ -28,6 +28,6 @@ spec:
   type: LoadBalancer  
   ports:
   - name: "backend"
-    port: 443
+    port: 80
   selector:
     app: backend
