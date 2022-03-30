@@ -5,6 +5,6 @@ workdir: /nodeapp
 sync:
  - ./app:/nodeapp
 forward:
-  - 80:80  
+  - 443:443  
 persistentVolume:
   enabled: false 

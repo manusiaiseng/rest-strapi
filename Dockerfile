@@ -11,6 +11,6 @@ COPY . .
 
 ENV NODE_ENV development
 
-EXPOSE 80
+EXPOSE 443
 
 CMD ["yarn", "develop"]
