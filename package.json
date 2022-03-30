@@ -15,7 +15,6 @@
     "@strapi/plugin-i18n": "4.1.5",
     "@strapi/plugin-users-permissions": "4.1.5",
     "@strapi/strapi": "4.1.5",
-    "mysql": "^2.18.1",
     "sqlite3": "5.0.2",
     "strapi-plugin-menus": "^0.2.4",
     "strapi-plugin-mux-video-uploader": "^2.1.1"
