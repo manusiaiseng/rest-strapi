@@ -1,0 +1,10 @@
+name: backend
+image: manusiaiseng/strapi:dev
+command: yarn develop
+workdir: /nodeapp
+sync:
+ - ./app:/nodeapp
+forward:
+  - 80:80  
+persistentVolume:
+  enabled: false 
